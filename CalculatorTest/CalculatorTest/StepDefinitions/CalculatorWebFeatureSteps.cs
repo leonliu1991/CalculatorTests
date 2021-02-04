@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 using CalculatorTest.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -53,6 +49,5 @@ namespace CalculatorTest.StepDefinitions
         {
             // This is merely to display in the test report
         }
-
     }
 }

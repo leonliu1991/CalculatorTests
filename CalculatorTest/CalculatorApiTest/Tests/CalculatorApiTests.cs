@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CalculatorApiTest.Actions;
 using CalculatorApiTest.Model;
 using System.Net;
