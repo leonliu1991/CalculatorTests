@@ -23,3 +23,6 @@ This .Net automation test framework contains two projects: Calculator web tests 
 4. Web calculator: An error message should be displayed when calculating the division of a number by zero, instead of 0 in the result field.
 5. Api calculator: 500 error is returned when calculating the division of a number by zero, which needs to be handled better, 400 error should be expected.
 6. Api calculator: 500 error is returned when the left number or right number is floating number, which needs to be handled better, 400 error should be expected.
+
+## Test Report
+The web tests framework which has a BDD layer has already integrated with a third party reporting tool called Extent Report. After the tests have been executed, a test report will be generated locally.
