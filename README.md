@@ -14,7 +14,8 @@ This .Net automation test framework contains two projects: Calculator web tests 
 - Verify the division of 2 positive numbers                               
 - Verify the division of 2 negative numbers                               
 - Verify the division of 1 positive number and 1 negative number          
-- Verify the division of zero by any number                               
+- Verify the division of zero by any number
+- Verify the division of a number by zero
 
 ## Issues
 1. Web calculator: All negative numbers input are treated as positive numbers so the results are not reliable if left number and/or right number are/is negative. What needs to be highlighted is -1 * -1 = 1 which looks correct, but it is actually false postive.
