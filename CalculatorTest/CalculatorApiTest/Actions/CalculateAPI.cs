@@ -16,12 +16,14 @@ namespace CalculatorApiTest.Actions
         private string key;
         private const string SchemaPathOfPostCalculateResponse = @"JsonSchema\PostCalculateResponseJsonSchema.json";
         private IRestResponse restResponse;
-        JsonSchemaComparer schemaComparer = new JsonSchemaComparer();
+        private JsonSchemaComparer schemaComparer;
 
         public CalculateAPI(string baseUrl, string functionsKey)
         {
             url = baseUrl;
             key = functionsKey;
+            schemaComparer = new JsonSchemaComparer();
+
             System.Console.WriteLine($"The base url is '{url}'");
             Debug.WriteLine($"The base url is '{url}'");
         }

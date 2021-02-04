@@ -7,7 +7,7 @@ using Newtonsoft.Json.Schema;
 
 namespace CalculatorApiTest.Common
 {
-    class JsonSchemaComparer
+    public class JsonSchemaComparer
     {
         public void AssertArraySchema(JArray responseJ, string customSchemaPath)
         {
